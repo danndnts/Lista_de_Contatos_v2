@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.content-form, .content-list {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input, select, .btn-app, .btn-link {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-app {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-app:hover {
+    background-color: #0056b3;
+}
+
+.btn-link {
+    display: inline-block;
+    color: #007BFF;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.list-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-actions {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    margin-top: 20px;
+}
+
+.btn-back {
+    display: inline-block;
+    text-align: center;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-back:hover {
+    background-color: #5a6268;
+}
